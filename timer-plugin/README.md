@@ -1,71 +1,19 @@
-# timer-plugin README
-
-This is the README for your extension "timer-plugin". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### Timer Plugin for VS Code
+    Timer Plugin — это простое расширение для Visual Studio Code, которое позволяет запускать обратный отсчёт прямо в редакторе.
+    Плагин создан на TypeScript и использует VS Code API для отображения уведомлений пользователю.
+## Установка и запуск
+**Клонирования репозитория**
+    git clone https://github.com/DimVell/timer-plugin.git
+    cd timer-plugin
+**Установка зависимостей**
+    npm install
+**Сборка проекта**
+    npm run compile
+**Запус плагина**
+    Открой проект в VS Code.
+    Нажми F5 — откроется новое окно Extension Development Host.
+    В новом окне нажми Ctrl + Shift + P (или F1) → выбери команду Start Timer.
+    Введи количество секунд и дождись уведомления о завершении таймера.
+## Автор
+Разработано: <Величко Дмитрий Иванович>
+Группа: <M3122>
